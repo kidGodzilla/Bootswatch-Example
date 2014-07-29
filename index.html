@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bootswatch-example by kidGodzilla</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Bootswatch-example</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/kidGodzilla/Bootswatch-Example">View the Project on GitHub <small>kidGodzilla/Bootswatch-Example</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/kidGodzilla/Bootswatch-Example/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/kidGodzilla/Bootswatch-Example/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/kidGodzilla/Bootswatch-Example">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>&lt;!DOCTYPE html&gt;
+
+  </p>
+    <pre><code>&lt;title&gt;Bootstrap Template with Bootswatch Yeti&lt;/title&gt;
+
+&lt;!-- Bootstrap core CSS --&gt;
+&lt;!--    &lt;link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"&gt;--&gt;
+&lt;link href="yeti.min.css" rel="stylesheet"&gt;
+
+&lt;!-- Custom styles for this template --&gt;
+&lt;style&gt;
+    /* Space out content a bit */
+    body {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    /* Everything but the jumbotron gets side spacing for mobile first views */
+    .header,
+    .marketing,
+    .footer {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    /* Custom page header */
+    .header {
+      border-bottom: 1px solid #e5e5e5;
+    }
+    /* Make the masthead heading the same height as the navigation */
+    .header h3 {
+      padding-bottom: 19px;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 40px;
+    }
+
+    /* Custom page footer */
+    .footer {
+      padding-top: 19px;
+      color: #777;
+      border-top: 1px solid #e5e5e5;
+    }
+
+    /* Customize container */
+    @media (min-width: 768px) {
+      .container {
+        max-width: 730px;
+      }
+    }
+    .container-narrow &gt; hr {
+      margin: 30px 0;
+    }
+
+    /* Main marketing message and sign up button */
+    .jumbotron {
+      text-align: center;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .jumbotron .btn {
+      padding: 14px 24px;
+      font-size: 21px;
+    }
+
+    /* Supporting marketing content */
+    .marketing {
+      margin: 40px 0;
+    }
+    .marketing p + h4 {
+      margin-top: 28px;
+    }
+
+    /* Responsive: Portrait tablets and up */
+    @media screen and (min-width: 768px) {
+      /* Remove the padding we set earlier */
+      .header,
+      .marketing,
+      .footer {
+        padding-right: 0;
+        padding-left: 0;
+      }
+      /* Space out the masthead */
+      .header {
+        margin-bottom: 30px;
+      }
+      /* Remove the bottom border on the jumbotron for visual effect */
+      .jumbotron {
+        border-bottom: 0;
+      }
+    }
+&lt;/style&gt;
+
+&lt;!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+&lt;!--[if lt IE 9]&gt;
+  &lt;script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"&gt;&lt;/script&gt;
+  &lt;script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+</code></pre>
+
+<p></p>
+
+<p></p>
+
+<pre><code>&lt;div class="container"&gt;
+  &lt;div class="header"&gt;
+    &lt;ul class="nav nav-pills pull-right"&gt;
+      &lt;li class="active"&gt;&lt;a href="#" data-toggle="tooltip" data-placement="bottom" title="This link takes you to the homepage"&gt;HOME&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#" data-toggle="tooltip" data-placement="bottom" title="This link takes you to the about page"&gt;ABOUT&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#" data-toggle="tooltip" data-placement="bottom" title="This link takes you to the contact page"&gt;CONTACT&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;h3 class="text-muted"&gt;YETI BOOTSWATCH EXAMPLE&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;div class="alert alert-warning fade in" role="alert"&gt;
+      &lt;button type="button" class="close" data-dismiss="alert"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;span class="sr-only"&gt;Close&lt;/span&gt;&lt;/button&gt;
+      &lt;strong&gt;Look at me!&lt;/strong&gt; I used a bootstrap JavaScript component plugin.
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="jumbotron"&gt;
+      &lt;img src="http://37.media.tumblr.com/bddaeb8fe12eda6bb40cf6a0a18d9efa/tumblr_n8zm8ndGiY1st5lhmo1_1280.jpg" width="500" style="box-shadow: 2px 2px 2px #fff"&gt;
+    &lt;h1&gt;WELCOME TO BOOTSWATCH&lt;/h1&gt;
+    &lt;p class="lead"&gt;Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a class="btn btn-lg btn-success" href="#" role="button" data-toggle="modal" data-target="#myModal"&gt;OPEN MODEL&lt;/a&gt;&lt;/p&gt;
+
+    &lt;!-- Modal --&gt;
+    &lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"&gt;
+      &lt;div class="modal-dialog"&gt;
+        &lt;div class="modal-content"&gt;
+          &lt;div class="modal-header"&gt;
+            &lt;button type="button" class="close" data-dismiss="modal"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;span class="sr-only"&gt;Close&lt;/span&gt;&lt;/button&gt;
+            &lt;h4 class="modal-title" id="myModalLabel"&gt;Modal title&lt;/h4&gt;
+          &lt;/div&gt;
+          &lt;div class="modal-body"&gt;
+            No message available.
+          &lt;/div&gt;
+          &lt;div class="modal-footer"&gt;
+            &lt;button type="button" class="btn btn-default" data-dismiss="modal"&gt;CLOSE&lt;/button&gt;
+            &lt;button type="button" class="btn btn-primary" data-dismiss="modal"&gt;ALSO CLOSE&lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class="row marketing"&gt;
+    &lt;div class="col-lg-6"&gt;
+      &lt;h4&gt;Subheading&lt;/h4&gt;
+      &lt;p&gt;Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.&lt;/p&gt;
+
+      &lt;h4&gt;Subheading&lt;/h4&gt;
+      &lt;p&gt;Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+      &lt;h4&gt;Subheading&lt;/h4&gt;
+      &lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="col-lg-6"&gt;
+      &lt;h4&gt;Subheading&lt;/h4&gt;
+      &lt;p&gt;Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.&lt;/p&gt;
+
+      &lt;h4&gt;Subheading&lt;/h4&gt;
+      &lt;p&gt;Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+      &lt;h4&gt;Subheading&lt;/h4&gt;
+      &lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/p&gt;
+    &lt;/div&gt;  
+  &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;table class="table"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt;First Name&lt;/th&gt;
+      &lt;th&gt;Last Name&lt;/th&gt;
+      &lt;th&gt;Username&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Mark&lt;/td&gt;
+      &lt;td&gt;Otto&lt;/td&gt;
+      &lt;td&gt;@mdo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Jacob&lt;/td&gt;
+      &lt;td&gt;Thornton&lt;/td&gt;
+      &lt;td&gt;@fat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Larry&lt;/td&gt;
+      &lt;td&gt;the Bird&lt;/td&gt;
+      &lt;td&gt;@twitter&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+    &lt;/div&gt;
+
+  &lt;div class="footer"&gt;
+    &lt;p&gt;&amp;copy; James Futhey 2014. No rights reserved.&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- /container --&gt;
+&lt;script src="http://code.jquery.com/jquery-1.11.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/alert.min.js"&gt;&lt;/script&gt;
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+$(function(){
+   $('[data-toggle="tooltip"]').tooltip();
+});
+</code></pre>
+
+<p>
+  
+</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/kidGodzilla">kidGodzilla</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
